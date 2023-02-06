@@ -1,0 +1,31 @@
+/* Синтаксис CSS
+
+селектор {
+властивість 1: Значення 1;
+властивість 2: Значення 2;   
+}
+
+*/
+
+h1 {
+    color: blue;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --text-color: rgb(103,103,103);
+    --h2-color: #2928;
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: var(--h2-color);
+}
